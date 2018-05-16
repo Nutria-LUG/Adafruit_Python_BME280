@@ -1,18 +1,22 @@
+# Fork from Adafruit_Python_BME280
+This is a fork from Adafruit_Python_BME280 library to use bme280 sensor with AriettaG25 board.
+
+
 # Adafruit_Python_BME280
 
 This Python driver allows you to read data from the [Adafruit BME280 Breakout](https://www.adafruit.com/products/2652) on a Raspberry Pi, Pi2 or similar device.
 
 ## Requirements
 
-This driver requires that you have previously installed the
-[Adafruit_Python_GPIO](https://github.com/adafruit/Adafruit_Python_GPIO) package.
+This driver requires that you have previously installed the NutriaLUG fork of
+[Adafruit_Python_GPIO](https://github.com/Nutria-LUG/Adafruit_Python_GPIO) package.
 
 On Raspbian, you can install this package with the following commands:
 
 ```
 sudo apt-get update
 sudo apt-get install build-essential python-pip python-dev python-smbus git
-git clone https://github.com/adafruit/Adafruit_Python_GPIO.git
+git clone https://github.com/Nutria-LUG/Adafruit_Python_GPIO.git
 cd Adafruit_Python_GPIO
 sudo python setup.py install
 ```
@@ -29,7 +33,7 @@ python Adafruit_BME280_Example.py
 
 ## Credits
 
-This driver is based on the [Adafruit_BMP](https://github.com/adafruit/Adafruit_Python_BMP)
+This driver is based on the [Adafruit_BMP's fork](https://github.com/Nutria-LUG/Adafruit_Python_BMP)
 driver by Tony DiCola (Adafruit Industries), with BME280 additions kindly provided by
 David J. Taylor (www.satsignal.eu).
 
